@@ -1,0 +1,28 @@
+{
+  "name": "loading_styling_b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "faker": "^5.5.3",
+    "forever": "^4.0.3",
+    "http": "^0.0.1-security",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.4",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "koa-slow": "^2.1.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.11.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
